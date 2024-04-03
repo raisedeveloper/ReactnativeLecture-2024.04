@@ -21,7 +21,7 @@ export default function FlatListBasic() {
 
   const uploadFruit = () => {
     if (fruitInput.trim() !== '') { // 입력값이 비어있지 않은 경우에만 실행
-      setFruits([...fruits, { key: fruitInput }]);
+      s                          etFruits([...fruits, Text.trim(), { key: fruitInput }]);
       setFruitInput(''); // 입력창 초기화
     }
   };
